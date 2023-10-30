@@ -1,0 +1,682 @@
+/* Reset some default styles for the header */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a dark background and text color to the header */
+.dark-header {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 10px 0;
+}
+
+/* Center the header contents and provide some spacing */
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Style the logo */
+.logo img {
+    width: 100px; /* Adjust the width as needed */
+}
+
+/* Style the navigation menu */
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff; /* White text color for links */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Style the call to action (CTA) button */
+.cta-button .cta-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900; /* Custom button color */
+    color: #333; /* Text color for the button */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Hover effect for the CTA button */
+.cta-button .cta-link:hover {
+    background-color: #ffcc00; /* Custom button color on hover */
+}
+/* Style the hero section with a dark theme */
+.hero {
+    background: url('hero-background.jpg') center/cover no-repeat; /* Add your background image URL */
+    height: 100vh; /* Adjust the height as needed */
+    color: #fff; /* Text color */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style the hero content */
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better readability */
+}
+
+/* Style the headline */
+.hero-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Style the subheading */
+.hero-content p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Style the call to action (CTA) button */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900; /* Custom button color */
+    color: #333; /* Text color for the button */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Hover effect for the CTA button */
+.cta-button:hover {
+    background-color: #ffcc00; /* Custom button color on hover */
+}
+/* Style the "About Us" section with a dark theme */
+.about-us {
+    background: url('about-us-background.jpg') center/cover no-repeat; /* Add your background image URL */
+    color: #fff; /* Text color */
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Style the "About Us" content */
+.about-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the section heading */
+.about-us-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Style the description */
+.about-us-content p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Style the shop owner image */
+.owner-image img {
+    width: 200px; /* Adjust the width as needed */
+    border-radius: 50%; /* Creates a circular image shape */
+    margin-top: 20px;
+}
+/* Style the "Products/Services" section with a dark theme */
+.products-services {
+    background: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Style the products/services grid */
+.products-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 20px;
+}
+
+/* Style individual product/service items */
+.product {
+    background: #444; /* Darker background for product items */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Style product images */
+.product img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Style product titles */
+.product h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Style product descriptions */
+.product p {
+    font-size: 16px;
+}
+
+/* Style the "Learn More" CTA buttons */
+.product .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900; /* Custom button color */
+    color: #333; /* Text color for the button */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Hover effect for the CTA buttons */
+.product .cta-button:hover {
+    background-color: #ffcc00; /* Custom button color on hover */
+}
+/* Style the "Testimonials/Reviews" section with a dark theme */
+.testimonials {
+    background: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 60px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Style individual testimonial items */
+.testimonial {
+    background: #444; /* Darker background for testimonial items */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 300px;
+}
+
+/* Style customer images */
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Style testimonial text */
+.testimonial p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Style customer names */
+.testimonial .customer-name {
+    font-weight: bold;
+}
+
+/* Customize spacing and styling as needed */
+/* Style the "Special Offers" section with a dark theme */
+.special-offers {
+    background: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 60px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Style individual offer items */
+.offer {
+    background: #444; /* Darker background for offer items */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 300px;
+}
+
+/* Style offer titles */
+.offer h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style offer descriptions */
+.offer p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Customize spacing and styling as needed */
+/* Style the "Blog" section with a dark theme */
+.blog {
+    background: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 60px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Style individual blog post items */
+.blog-post {
+    background: #444; /* Darker background for blog post items */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 300px;
+}
+
+/* Style blog post images */
+.blog-post img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Style blog post titles */
+.blog-post h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style blog post excerpts */
+.blog-post p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Style the "Read More" CTA buttons */
+.blog-post .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900; /* Custom button color */
+    color: #333; /* Text color for the button */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Hover effect for the CTA buttons */
+.blog-post .cta-button:hover {
+    background-color: #ffcc00; /* Custom button color on hover */
+}
+/* Style the "Contact" section with a dark theme */
+.contact {
+    background: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 60px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Style the contact form */
+.contact-form {
+    background: #444; /* Darker background for the contact form */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+    max-width: 400px;
+}
+
+/* Style the form heading */
+.contact-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style form labels */
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Style form inputs and textarea */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Style the "Send Message" CTA button */
+.contact-form .cta-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff9900; /* Custom button color */
+    color: #333; /* Text color for the button */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Hover effect for the CTA button */
+.contact-form .cta-button:hover {
+    background-color: #ffcc00; /* Custom button color on hover */
+}
+
+/* Style the contact information */
+.contact-info {
+    background: #444; /* Darker background for contact information */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+    max-width: 400px;
+}
+
+/* Style the information heading */
+.contact-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style contact information paragraphs */
+.contact-info p {
+    margin: 10px 0;
+}
+/* Style the "Newsletter Signup" section with a dark theme */
+.newsletter-signup {
+    background: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 60px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Style the newsletter signup form */
+.signup-form {
+    background: #444; /* Darker background for the signup form */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+    max-width: 400px;
+}
+
+/* Style the form heading */
+.signup-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Style form description */
+.signup-form p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Style form labels */
+.signup-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Style form input */
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Style the "Subscribe" CTA button */
+.signup-form .cta-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff9900; /* Custom button color */
+    color: #333; /* Text color for the button */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Hover effect for the CTA button */
+.signup-form .cta-button:hover {
+    background-color: #ffcc00; /* Custom button color on hover */
+}
+/* Style the dark-themed footer */
+.dark-footer {
+    background: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Style the footer container */
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Style the copyright text */
+.copyright {
+    font-size: 16px;
+}
+
+/* Style the legal links */
+.legal-links a {
+    text-decoration: none;
+    color: #fff; /* Link color */
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+/* Style the social media links */
+.social-media a {
+    text-decoration: none;
+    color: #fff; /* Icon color */
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+/* Style the "Back to Top" link */
+.back-to-top {
+    text-decoration: none;
+    color: #fff; /* Link color */
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+/* Hover effect for the "Back to Top" link */
+.back-to-top:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+/* Reset some default styles for the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #111; /* Darker header background color */
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the hero section */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Style the content section */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.content ul {
+    list-style: disc;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+/* Style the call to action section */
+.cta {
+    text-align: center;
+    background-color: #111; /* Darker CTA background color */
+    padding: 100px 0;
+}
+
+.cta h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.cta p {
+    font-size: 18px;
+}
+
+.cta button {
+    background-color: #ff9900; /* Custom button color */
+    color: #333; /* Text color for the button */
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #111; /* Darker footer background color */
+    padding: 10px;
+}
+
+footer p {
+    font-size: 16px;
+}
+/* Reset some default styles for the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the "Call to Action" section with a dark theme */
+.cta-section {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Style the section heading */
+.cta-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Style the section description */
+.cta-section p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Style the "Sign Up" CTA button */
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff9900; /* Custom button color */
+    color: #333; /* Text color for the button */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+/* Hover effect for the CTA button */
+.cta-button:hover {
+    background-color: #ffcc00; /* Custom button color on hover */
+}
